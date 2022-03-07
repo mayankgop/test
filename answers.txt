@@ -19,4 +19,5 @@ After rebasing, commit from only one developer will be stamped in git log. Advan
 What is Git Squash ?
 Ans:- In Git, the term squash is used to squash the previous commits into one. It is not a command; instead, it is a keyword. The squash is an excellent technique for group-specific changes before forwarding them to others. You can merge several commits into a single commit with the compelling interactive rebase command.
 
-
+What is cherrypicking?
+Ans:- Cherry picking is the act of picking a commit from a branch and applying it to another. git cherry-pick can be useful for undoing changes. For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where it should belong.

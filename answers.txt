@@ -2,3 +2,20 @@ What is a repository ? and how is it diff from a branch ?
 Ans:- A repository is your whole project (directories and files) that you clone on your computer. A branch is a version of your repository, or in other words, an independent line of development. A repository can contain multiple branches, which means there are multiple versions of the repository.
 
 
+
+What is the difference between rebase and git merge ?
+Ans:- Both git merge and git rebase are used to merge branches. There is one difference between them. The difference lies in the commit history after you integrate one branch into another.
+
+Suppose developer A made a commit and developer B made another commit.
+
+git merge:
+
+After merging, commits from both the developers will be there in git log. This is really good for beginners cause the head can be rolled back to commit from either developer A or developer B.
+
+git rebase:
+
+After rebasing, commit from only one developer will be stamped in git log. Advanced developers prefer this cause it makes the commit history linear and clean.
+
+
+
+

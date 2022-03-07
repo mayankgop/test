@@ -16,6 +16,7 @@ git rebase:
 
 After rebasing, commit from only one developer will be stamped in git log. Advanced developers prefer this cause it makes the commit history linear and clean.
 
-
+What is Git Squash ?
+Ans:- In Git, the term squash is used to squash the previous commits into one. It is not a command; instead, it is a keyword. The squash is an excellent technique for group-specific changes before forwarding them to others. You can merge several commits into a single commit with the compelling interactive rebase command.
 
 

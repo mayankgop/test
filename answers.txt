@@ -1,0 +1,4 @@
+What is a repository ? and how is it diff from a branch ?
+Ans:- A repository is your whole project (directories and files) that you clone on your computer. A branch is a version of your repository, or in other words, an independent line of development. A repository can contain multiple branches, which means there are multiple versions of the repository.
+
+
